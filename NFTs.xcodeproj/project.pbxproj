@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34E1B6D287437C200A7FDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B6C287437C200A7FDC1 /* AppDelegate.swift */; };
+		B34E1B6F287437C200A7FDC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B6E287437C200A7FDC1 /* SceneDelegate.swift */; };
+		B34E1B76287437C400A7FDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34E1B75287437C400A7FDC1 /* Assets.xcassets */; };
+		B34E1B79287437C400A7FDC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34E1B77287437C400A7FDC1 /* LaunchScreen.storyboard */; };
+		B34E1B812874385E00A7FDC1 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B802874385E00A7FDC1 /* StartVC.swift */; };
+		B34E1B8328743EB600A7FDC1 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B8228743EB600A7FDC1 /* View+Ext.swift */; };
+		B34E1B85287457BB00A7FDC1 /* BeginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B84287457BB00A7FDC1 /* BeginVC.swift */; };
+		B34E1B8A28745A9200A7FDC1 /* StepsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B8928745A9200A7FDC1 /* StepsVC.swift */; };
+		B34E1B8C28745AF600A7FDC1 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B8B28745AF600A7FDC1 /* StepsView.swift */; };
+		B34E1B8E287473C500A7FDC1 /* SelectWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B8D287473C500A7FDC1 /* SelectWalletVC.swift */; };
+		B34E1B902874948D00A7FDC1 /* PopularWalletsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B8F2874948D00A7FDC1 /* PopularWalletsVC.swift */; };
+		B34E1B92287494B400A7FDC1 /* PopularWalletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B91287494B400A7FDC1 /* PopularWalletsView.swift */; };
+		B34E1B95287577E100A7FDC1 /* ConnectWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B94287577E100A7FDC1 /* ConnectWalletVC.swift */; };
+		B34E1B972875D9A300A7FDC1 /* ScanQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B962875D9A300A7FDC1 /* ScanQRCodeVC.swift */; };
+		B34E1B992875ECCA00A7FDC1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E1B982875ECC900A7FDC1 /* SignInVC.swift */; };
+		B384B3E4287813FF0063A5E2 /* NFTConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384B3E3287813FF0063A5E2 /* NFTConnectButton.swift */; };
+		B384B3E82878563B0063A5E2 /* StepNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384B3E72878563B0063A5E2 /* StepNumberView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B34E1B69287437C200A7FDC1 /* NFTs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34E1B6C287437C200A7FDC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B34E1B6E287437C200A7FDC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B34E1B75287437C400A7FDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B34E1B78287437C400A7FDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B34E1B7A287437C400A7FDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34E1B802874385E00A7FDC1 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		B34E1B8228743EB600A7FDC1 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		B34E1B84287457BB00A7FDC1 /* BeginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginVC.swift; sourceTree = "<group>"; };
+		B34E1B8928745A9200A7FDC1 /* StepsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsVC.swift; sourceTree = "<group>"; };
+		B34E1B8B28745AF600A7FDC1 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		B34E1B8D287473C500A7FDC1 /* SelectWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWalletVC.swift; sourceTree = "<group>"; };
+		B34E1B8F2874948D00A7FDC1 /* PopularWalletsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularWalletsVC.swift; sourceTree = "<group>"; };
+		B34E1B91287494B400A7FDC1 /* PopularWalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularWalletsView.swift; sourceTree = "<group>"; };
+		B34E1B94287577E100A7FDC1 /* ConnectWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWalletVC.swift; sourceTree = "<group>"; };
+		B34E1B962875D9A300A7FDC1 /* ScanQRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeVC.swift; sourceTree = "<group>"; };
+		B34E1B982875ECC900A7FDC1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		B384B3E3287813FF0063A5E2 /* NFTConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTConnectButton.swift; sourceTree = "<group>"; };
+		B384B3E72878563B0063A5E2 /* StepNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepNumberView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34E1B66287437C200A7FDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B34E1B60287437C200A7FDC1 = {
+			isa = PBXGroup;
+			children = (
+				B34E1B6B287437C200A7FDC1 /* NFTs */,
+				B34E1B6A287437C200A7FDC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B34E1B6A287437C200A7FDC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34E1B69287437C200A7FDC1 /* NFTs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34E1B6B287437C200A7FDC1 /* NFTs */ = {
+			isa = PBXGroup;
+			children = (
+				B34E1B93287574C600A7FDC1 /* Support */,
+				B34E1B882874595300A7FDC1 /* Screens */,
+				B384B3E6287825010063A5E2 /* View Controllers */,
+				B384B3E3287813FF0063A5E2 /* NFTConnectButton.swift */,
+				B34E1B75287437C400A7FDC1 /* Assets.xcassets */,
+				B34E1B77287437C400A7FDC1 /* LaunchScreen.storyboard */,
+				B34E1B7A287437C400A7FDC1 /* Info.plist */,
+			);
+			path = NFTs;
+			sourceTree = "<group>";
+		};
+		B34E1B882874595300A7FDC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B34E1B802874385E00A7FDC1 /* StartVC.swift */,
+				B34E1B84287457BB00A7FDC1 /* BeginVC.swift */,
+				B34E1B8D287473C500A7FDC1 /* SelectWalletVC.swift */,
+				B34E1B94287577E100A7FDC1 /* ConnectWalletVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B34E1B93287574C600A7FDC1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B34E1B8228743EB600A7FDC1 /* View+Ext.swift */,
+				B34E1B6C287437C200A7FDC1 /* AppDelegate.swift */,
+				B34E1B6E287437C200A7FDC1 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B384B3E6287825010063A5E2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B34E1B8928745A9200A7FDC1 /* StepsVC.swift */,
+				B34E1B8F2874948D00A7FDC1 /* PopularWalletsVC.swift */,
+				B34E1B982875ECC900A7FDC1 /* SignInVC.swift */,
+				B34E1B962875D9A300A7FDC1 /* ScanQRCodeVC.swift */,
+				B384B3E9287AB43F0063A5E2 /* Custom Views */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B384B3E9287AB43F0063A5E2 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				B384B3E72878563B0063A5E2 /* StepNumberView.swift */,
+				B34E1B8B28745AF600A7FDC1 /* StepsView.swift */,
+				B34E1B91287494B400A7FDC1 /* PopularWalletsView.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B34E1B68287437C200A7FDC1 /* NFTs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34E1B7D287437C400A7FDC1 /* Build configuration list for PBXNativeTarget "NFTs" */;
+			buildPhases = (
+				B34E1B65287437C200A7FDC1 /* Sources */,
+				B34E1B66287437C200A7FDC1 /* Frameworks */,
+				B34E1B67287437C200A7FDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTs;
+			productName = NFTs;
+			productReference = B34E1B69287437C200A7FDC1 /* NFTs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34E1B61287437C200A7FDC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B34E1B68287437C200A7FDC1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B34E1B64287437C200A7FDC1 /* Build configuration list for PBXProject "NFTs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B34E1B60287437C200A7FDC1;
+			productRefGroup = B34E1B6A287437C200A7FDC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34E1B68287437C200A7FDC1 /* NFTs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34E1B67287437C200A7FDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34E1B79287437C400A7FDC1 /* LaunchScreen.storyboard in Resources */,
+				B34E1B76287437C400A7FDC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34E1B65287437C200A7FDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34E1B8A28745A9200A7FDC1 /* StepsVC.swift in Sources */,
+				B384B3E82878563B0063A5E2 /* StepNumberView.swift in Sources */,
+				B34E1B972875D9A300A7FDC1 /* ScanQRCodeVC.swift in Sources */,
+				B34E1B8E287473C500A7FDC1 /* SelectWalletVC.swift in Sources */,
+				B34E1B902874948D00A7FDC1 /* PopularWalletsVC.swift in Sources */,
+				B34E1B6D287437C200A7FDC1 /* AppDelegate.swift in Sources */,
+				B34E1B992875ECCA00A7FDC1 /* SignInVC.swift in Sources */,
+				B34E1B95287577E100A7FDC1 /* ConnectWalletVC.swift in Sources */,
+				B384B3E4287813FF0063A5E2 /* NFTConnectButton.swift in Sources */,
+				B34E1B6F287437C200A7FDC1 /* SceneDelegate.swift in Sources */,
+				B34E1B8C28745AF600A7FDC1 /* StepsView.swift in Sources */,
+				B34E1B85287457BB00A7FDC1 /* BeginVC.swift in Sources */,
+				B34E1B812874385E00A7FDC1 /* StartVC.swift in Sources */,
+				B34E1B8328743EB600A7FDC1 /* View+Ext.swift in Sources */,
+				B34E1B92287494B400A7FDC1 /* PopularWalletsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B34E1B77287437C400A7FDC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34E1B78287437C400A7FDC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B34E1B7B287437C400A7FDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B34E1B7C287437C400A7FDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34E1B7E287437C400A7FDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59MC8MYKNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tei.NFTs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B34E1B7F287437C400A7FDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59MC8MYKNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tei.NFTs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34E1B64287437C200A7FDC1 /* Build configuration list for PBXProject "NFTs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34E1B7B287437C400A7FDC1 /* Debug */,
+				B34E1B7C287437C400A7FDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34E1B7D287437C400A7FDC1 /* Build configuration list for PBXNativeTarget "NFTs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34E1B7E287437C400A7FDC1 /* Debug */,
+				B34E1B7F287437C400A7FDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B34E1B61287437C200A7FDC1 /* Project object */;
+}
