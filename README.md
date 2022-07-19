@@ -1,5 +1,5 @@
 # Buy-NFTs
-A implementation of a Figma design of an app for purchasing NFTs 
+An implementation of a Figma design of an app for purchasing NFTs 
 
 # Installation
 Install Xcode on MacOS
